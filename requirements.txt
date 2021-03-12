@@ -18,7 +18,7 @@ chardet==3.0.4
 click==7.1.2
 colorama==0.4.4
 comtypes==1.1.7
-cryptography==3.2
+cryptography==3.3.2
 dearpygui==0.5.53
 decorator==4.4.2
 deprecation==2.1.0
