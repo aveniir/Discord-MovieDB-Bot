@@ -7,7 +7,7 @@ The Discord-MovieDB-Bot is a Discord-Bot that allows you to get information from
 It uses [TheMovieDB API](https://developers.themoviedb.org/3)
 
 ## Contributing
-Pull requests are rejected as of now because the repository is private for now. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are rejected for now. For major changes, please open an issue first to discuss what you would like to change.
 
 If you have any ideas for improvement, please let me know! :) 
 
