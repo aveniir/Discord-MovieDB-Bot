@@ -1,11 +1,11 @@
 #!/usr/bin/python
 import discord
 import tmdbv3api
-from TOKEN import TOKEN, TMDB_TOKEN
-from discord.ext import commands
-from discord.ext.commands.core import command, cooldown
 from tmdbv3api import TMDb
 from tmdbv3api import Movie, TV
+from discord.ext import commands
+from discord.ext.commands.core import command, cooldown
+from TOKEN import TOKEN, TMDB_TOKEN
 
 #TMDB Setup
 tmdb = TMDb()
@@ -47,7 +47,7 @@ async def mdb(ctx, *args):
     else:
         search = movie.search(movieName)
         if len(search) == 0:
-            await ctx.channel.send('Ich konnte den Film', movieName, ' nicht finden.')
+            await ctx.channel.send('Der Film', movieName, ' konnte nicht gefunden werden.')
         else:
             for res in search:
                 await ctx.channel.send(link_prefix + str(res.id) + link_suffix)
